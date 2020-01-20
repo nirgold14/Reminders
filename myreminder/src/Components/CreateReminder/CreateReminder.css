@@ -1,0 +1,25 @@
+h2.form-Header{
+    text-align:left;
+    margin-bottom:25px;
+}
+
+.form-subject-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-subject-section h3{
+   
+    align-self: flex-start;
+}
+
+.form-subject-section Button:focus{
+    background-color: red;
+
+}
+
+
+Form h6{
+    text-align:left;
+}
