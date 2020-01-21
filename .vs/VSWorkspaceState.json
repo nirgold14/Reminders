@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RemindersAPI",
+    "\\RemindersAPI\\RemindersAPI",
+    "\\RemindersAPI\\RemindersAPI\\App_Start",
+    "\\RemindersAPI\\RemindersAPI\\Controllers",
+    "\\RemindersAPI\\RemindersAPI\\Views",
+    "\\RemindersAPI\\RemindersAPI\\Views\\Home",
+    "\\RemindersAPI\\RemindersAPI\\Views\\Shared"
+  ],
+  "SelectedNode": "\\RemindersAPI\\RemindersAPI\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

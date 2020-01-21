@@ -5,18 +5,19 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using RemindersAPI.Models;
+using RemindersAPI.Entities;
 
 namespace RemindersAPI.Controllers
 {
     [RoutePrefix("api/reminders")]
     public class ReminderController : ApiController
     {
-        dbcoreEntities DB = new dbcoreEntities();
+        RemindersEntities DB = new RemindersEntities();
 
         //Create New Reminder || Edit Reminder
         [HttpPost]
         [Route("createRemind")]
-        public object CreateReminder(Remind r)
+        public object CreateReminder(ReminderVM r)
         {
             try {
                 if (r.Id == 0)

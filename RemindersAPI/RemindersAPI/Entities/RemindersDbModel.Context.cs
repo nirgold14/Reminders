@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RemindersAPI.Models
+namespace RemindersAPI.Entities
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class dbcoreEntities : DbContext
+    public partial class RemindersEntities : DbContext
     {
-        public dbcoreEntities()
-            : base("name=dbcoreEntities")
+        public RemindersEntities()
+            : base("name=RemindersEntities")
         {
         }
     

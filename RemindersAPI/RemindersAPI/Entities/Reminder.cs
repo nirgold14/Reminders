@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RemindersAPI.Models
+namespace RemindersAPI.Entities
 {
     using System;
     using System.Collections.Generic;

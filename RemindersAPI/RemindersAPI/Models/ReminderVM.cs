@@ -5,7 +5,7 @@ using System.Web;
 
 namespace RemindersAPI.Models
 {
-    public class Remind
+    public class ReminderVM
     {
         public int Id { get; set; }
         public string Subject { get; set; }

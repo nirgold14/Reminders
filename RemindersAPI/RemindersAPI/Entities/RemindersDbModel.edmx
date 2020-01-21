@@ -31,7 +31,7 @@
           <Property Name="Content" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="DaysLeft" Type="Int32" />
         </EntityType>
-        <EntityContainer Name="dbcoreEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="RemindersEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Reminders" EntityType="Self.Reminder" />
         </EntityContainer>
       </Schema>
@@ -39,7 +39,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="dbcoreModelStoreContainer" CdmEntityContainer="dbcoreEntities">
+        <EntityContainerMapping StorageEntityContainer="dbcoreModelStoreContainer" CdmEntityContainer="RemindersEntities">
           <EntitySetMapping Name="Reminders">
             <EntityTypeMapping TypeName="dbcoreModel.Reminder">
               <MappingFragment StoreEntitySet="Reminders">
